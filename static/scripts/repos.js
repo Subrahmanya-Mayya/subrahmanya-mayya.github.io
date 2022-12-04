@@ -54,7 +54,7 @@ const renderRepos = (repos) => {
       viewBtnContainer.setAttribute(
         "onclick",
         `window.open('${
-          repo.has_pages
+          repo.pages
             ? ghUrl + repo.name
             : repo.homepage !== null
             ? repo.homepage
