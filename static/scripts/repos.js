@@ -90,7 +90,8 @@ const renderRepos = (repos) => {
       calenderContainer.appendChild(calenderImgContainer);
       let calenderText = document.createElement("span");
       calenderText.classList.add("align-middle");
-      calenderText.textContent = new Date(repo.created_at).toLocaleDateString();
+      calenderText.textContent =
+        " " + new Date(repo.created_at).toLocaleDateString();
       calenderContainer.appendChild(calenderText);
       cardFooter.appendChild(calenderContainer);
       cardBody.appendChild(cardFooter);

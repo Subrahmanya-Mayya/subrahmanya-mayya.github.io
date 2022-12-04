@@ -523,8 +523,20 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
 .grid {
   display: grid;
+}
+
+.h-5 {
+  height: 1.25rem;
+}
+
+.w-5 {
+  width: 1.25rem;
 }
 
 .gap-12 {
@@ -550,6 +562,11 @@ video {
 
 .font-main {
   font-family: Poppins;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .text-2xl {
